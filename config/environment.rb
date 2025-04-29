@@ -1,5 +1,7 @@
 require "./app"
 
+ENV["EXCHANGE_RATE_KEY"] = "6069b11e44c9f01bfbd63f1f29366f15"
+
 configure :development do
   # we would also like a nicer error page in development
   require "better_errors"
